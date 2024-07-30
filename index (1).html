@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .parent-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 2%;
+        }
+
+        .parent-container a {
+            text-decoration: none;
+            color: black;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .parent-container .signin {
+            background-color: #00baf2;
+            width: 8%;
+            padding: 8px;
+            border-radius: 25px;
+            text-align: center;
+            color: white;
+        }
+
+        .signin .fa-user {
+            border: 1px solid black;
+            border-radius: 50%;
+            padding: 8%;
+            background-color: #002970;
+            color: white;
+        }
+
+        .signin:hover{
+            background-color: #002970;
+        }
+
+        .signin:hover .fa-user{
+            background-color: #00baf2;
+        }
+        .recharge{
+            background-color: #00baf2;
+            color: white;
+            font-family: sans-serif;
+            padding: 4%;
+        }
+        .recharge-paybills{
+            display: flex;
+            justify-content: space-around;
+        }
+        .recharge-paybills img{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .recharge-paybills p{
+            color: white;
+            font-size: 1.4rem;
+        }
+        .section3{
+            display: flex;
+            justify-content: space-between;
+            padding: 5% 0% 3% 0%;
+        }
+        .payments-app{
+            width: 40%;
+            font-family: sans-serif;
+            padding-left: 5px;
+        }
+        .payments-app img{
+            width: 15%;
+        }
+
+        .payments-app h1{
+            font-size: 3rem;
+        }
+        .payments-app p{
+            font-size: 1.5rem;
+        }
+        .payments-app a{
+            background-color: black;
+            color: white;
+            padding: 10px 5%;
+            border-radius: 25px;
+        }
+
+    .payments-app a *{
+        margin: 5px;
+    }
+    .payments-app a:hover{
+        background-color: white;
+        color: black;
+        border-radius: 1px solid black;
+        border: 1px solid black;
+    }
+    .section3 .upi-payment{
+        width: 40%;
+    }
+    
+
+    </style>
+</head>
+
+<body>
+    <nav class="parent-container">
+        <a href=""><img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg"
+                alt="ptmicon"></a>
+        <a href="">Paytm for Consumer</a>
+        <a href="">Paytm For Business</a>
+        <a href="">Investor Relations</a>
+        <a href="">Company</a>
+        <a href="">Career</a>
+        <a class="signin" href=""><span>SignUp </span><i class="fa-solid fa-user"></i></a>
+    </nav>
+
+    <div class="recharge">
+
+        <h1>Recharge & Pay Bills on Paytm.</h1>
+        <div class="recharge-paybills">
+        <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png"
+                alt="recharge" width="60px"></a>
+                <p>Recharge <br> Prepaid <br> Mobile</p>
+        <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png"
+                alt="electricity" width="60px"></a>
+                <p>Pay <br> Electricity <br> Bill</p>
+        <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png"
+                alt="DTH" width="60px"></a>
+                <p>Recharge <br> DTH <br> Connection</p>
+        <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png"
+                alt="Cylinder" width="60px"></a>
+                <p>Book <br> Gas <br> Cylinder</p>
+        <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png"
+                alt="Landline-bill" width="60px"></a>
+                <p>Pay <br> Broadband & <br> Landline Bill</p>
+        <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png"
+                alt="Fee" width="60px"></a>
+                <p>Pay <br> Education <br> Fees</p>
+        <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png"
+                alt="Fee" width="60px"></a>
+                <p>All <br> Payment <br> Services</p>
+    </div>
+    </div>
+    
+    <section class="section3">
+        <div class="payments-app">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/310944/1697527183231.png" alt="catalog"/>
+            <h1>India's Most-loved Payments App</h1>
+            <p>Recharge & pay bills, book flights & movie tickets, invest in stocks & mutual funds, and do a lot more.</p>
+            <a href="">
+                Download Paytm App
+                <i class="fa-brands fa-apple"></i>
+                <i class="fa-brands fa-google-play"></i>
+            </a>
+        </div>
+        <img class="upi-payment" src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1715933362922.png" alt="image">
+    </section>
+</body>
+
+</html>
